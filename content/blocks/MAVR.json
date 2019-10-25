@@ -1,0 +1,45 @@
+{
+	"name": "MAVR",
+	"description": "Deadly and powerfull",
+	"type": "ArtilleryTurret",
+	"category": "turret",
+	"size": 4,
+	"health": 3000,
+	"requirements": [
+		{ "item": "copper", "amount": 2000 },
+		{ "item": "graphite", "amount": 900 },
+		{"item": "plastanium", "amount": 1000},
+		{"item": "lead", "amount": 1500},
+		{"item": "silicon", "amount": 750},
+		{"item": "surge-alloy", "amount": 500}
+	],
+	"ammo": {
+		"hardanium": {
+			"speed": 5,
+			"splashDamage": 500,
+			"splashDamageRadius": 120,
+			"damage": 300,
+			"lifetime": 120,
+			"shootType": "artilleryIncendary",
+			"bulletWidth": 25,
+			"bulletHeigth": 60
+		},
+		"plasma": {
+			"speed": 4,
+			"splashDamage": 300,
+			"splashDamageRadius": 80,
+			"lifetime": 120,
+			"damage": 150,
+			"shootType": "artilleryIncendary",
+			"bulletWidth": 25,
+			"bulletHeigth": 60
+		}
+	},
+	"reload": 180,
+	"shots": 1,
+	"range": 1200,
+	"rotateSpeed": 0.3,
+	"targetAir": false,
+	"targetGround": true,
+	"research": "railgun"
+}

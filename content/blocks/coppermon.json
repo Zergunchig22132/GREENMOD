@@ -1,0 +1,12 @@
+{
+	"name": "Copper monolith",
+	"description": "If you don 't know how to show your power, build a monolith.",
+	"type": "Wall",
+	"category": "upgrade",
+	"requirements": [
+		{"item": "copper", "amount": 50000}
+	],
+	"health": 15000,
+	"size": 4,
+	"research": "router"
+}

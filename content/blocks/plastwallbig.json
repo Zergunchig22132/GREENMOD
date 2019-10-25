@@ -1,0 +1,12 @@
+{
+	"name": "Big plastanium wall",
+	"description": "Its good",
+	"type": "Wall",
+	"category": "defense",
+	"requirements": [
+		{"item": "plastanium", "amount": 10}
+	],
+	"health": 4000,
+	"size": 2,
+	"research": "plastanium-compressor"
+}

@@ -1,0 +1,19 @@
+{
+	"name": "The Shooter Assembler",
+	"description": "This pad will change your mech for The Shooter, mech, that can kill anything what can be killed.",
+	"type": "MechPad",
+	"mech": "shooter",
+	"size": 2,
+	"category": "upgrade",
+	"consumes": {
+		"power": 5.0
+	},
+	"requirements": [
+		{"item": "copper", "amount": 700},
+		{"item": "lead", "amount": 700},
+		{"item": "silicon", "amount": 250},
+		{"item": "graphite", "amount": 300},
+		{"item": "plastanium", "amount": 450},
+		{"item": "thorium", "amount": 400}
+	]
+}

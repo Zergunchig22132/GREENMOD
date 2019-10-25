@@ -1,0 +1,31 @@
+{
+	"name": "The Sooter",
+	"description": "Shooter will not joke. He will shoot, his enemies - die.",
+	"speed": 0.4,
+	"boostSpeed": 1.0,
+	"buildPower": 2.0,
+	"engineColor": "84f491",
+	"flying": false,
+	"health": 200,
+	"mass": 2.0,
+	"drillPower": 2,
+	"mineSpeed": 2,
+	"itemCapacity": 30,
+	"drag": 0.4,
+	"weapon": {
+		"length": 1.5,
+		"width": 1,
+		"reload": 80,
+		"roundrobin": false,
+		"recoil": 3.5,
+		"shootSound": "pew",
+		"bullet": {
+			"bulletType": "healBulletBig",
+			"damage": 500,
+			"lifetime": 45,
+			"speed": 30,
+			"backColor": "84f491",
+			"frontColor": "84f491"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"name": "Stormbreaker Assembler",
+	"description": "This pad will change your mech for Stormbreaker, the top of our technologies",
+	"type": "MechPad",
+	"mech": "stormbreaker",
+	"size": 3,
+	"category": "upgrade",
+	"consumes": {
+		"power": 50.0
+	},
+	"requirements": [
+		{"item": "copper", "amount": 3000},
+		{"item": "lead", "amount": 3000},
+		{"item": "silicon", "amount": 1200},
+		{"item": "graphite", "amount": 1750},
+		{"item": "plastanium", "amount": 2000},
+		{"item": "thorium", "amount": 2000},
+		{"item": "surge-alloy", "amount": 3000}
+	]
+}

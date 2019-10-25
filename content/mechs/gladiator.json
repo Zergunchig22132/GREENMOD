@@ -1,0 +1,32 @@
+    
+{
+	"name": "Gladiator",
+	"description": "Mech with plasmaguns. Burn burn burn!",
+	"speed": 0.7,
+	"boostSpeed": 1.0,
+	"buildPower": 3.0,
+	"engineColor": "84f491",
+	"flying": false,
+	"health": 500,
+	"mass": 1.5,
+	"drillPower": 3,
+	"mineSpeed": 2,
+	"itemCapacity": 45,
+	"drag": 0.25,
+	"weapon": {
+		"length": 1.5,
+		"width": 1,
+		"reload": 10,
+		"recoil": 2,
+		"roundrobin": false,
+		"shootSound": "pew",
+		"bullet": {
+			"bulletType": "healBulletBig",
+			"damage": 50,
+			"lifetime": 25,
+			"speed": 12,
+			"backColor": "84f491",
+			"frontColor": "84f491"
+		}
+	}
+}

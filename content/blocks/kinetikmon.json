@@ -1,0 +1,12 @@
+{
+	"name": "Surge alloy monolith",
+	"description": "If you build it, you are mad.",
+	"type": "Wall",
+	"category": "upgrade",
+	"requirements": [
+		{"item": "surge-alloy", "amount": 50000}
+	],
+	"health": 15000,
+	"size": 4,
+	"research": "router"
+}

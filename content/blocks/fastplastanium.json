@@ -1,0 +1,37 @@
+{
+	"type": "GenericCrafter",
+	"name": "Fast plastanium compressor",
+	"category": "crafting",
+	"description": "This compressor making plastanium fast and effective",
+	"size": 4,
+	"health": 500,
+	"requirements": [
+		{ "item": "copper", "amount": 500 },
+		{ "item": "lead", "amount": 500 },
+		{ "item": "titanium", "amount": 200 },
+		{ "item": "graphite", "amount": 100 },
+		{ "item": "silicon", "amount": 50 },
+		{ "item": "thorium", "amount": 100 }
+	],
+	"hasItems": true,
+	"hasLiquids": true,
+	"liquidCapacity": 100,
+	"craftTime": 30,
+	"outputItem": {"item": "plastanium", "amount": 5},
+	"hasPower": true,
+	"consumes": {
+		"power": 5.0,
+		"items": {
+			"items": [
+				{"item": "titanium", "amount": 7}
+			],
+			"booster": false,
+			"optional": false,
+		},
+		"liquid": {
+			"liquid": "oil",
+			"amount": 15,
+		}
+	},
+	"research": "plastanium-compressor"
+}

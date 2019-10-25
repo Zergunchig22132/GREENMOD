@@ -1,0 +1,10 @@
+{
+	"name": "Plasma",
+	"descriprion": "Ouch! Its so hot...",
+	"type": "resource",
+	"esplosiveness": 0,
+	"flammability": 0.2,
+	"radioactivity": 0,
+	"cost": 0,
+	"alwaysUnlocked": true
+}

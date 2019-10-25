@@ -1,0 +1,35 @@
+{
+	"name": "Burner",
+	"description": "Better than napalm",
+	"type": "Ghoul",
+	"flying": true,
+	"drag": 0.05,
+	"speed": 1.0,
+	"maxVelocity": 3.0,
+	"health": 300,
+	"engineSize": 3,
+	"engineOffset": 12,
+	"mass": 4,
+	"targetAir": false,
+	"targetGround": true,
+	"range": 160,
+	"splashDamage": 300,
+	"splashDamageRadius": 80,
+	"weapon": {
+		"length": 1,
+		"width": 2,
+		"reload": 90,
+		"roundrobin": true,
+		"ejectEffect": "none",
+		"velocityRnd": 2,
+		"inaccuracy": 60,
+		"ignoreRotation": true,
+		"bullet": {
+			"bulletType": "bombExplosive",
+			"splashDamage": 300,
+			"splashDamageRadius": 80,
+			"speed": 1
+		},
+		"shootSound": "none"
+	}
+}

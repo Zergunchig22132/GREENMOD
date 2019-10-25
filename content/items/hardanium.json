@@ -1,0 +1,10 @@
+{
+	"name": "Hardanium",
+	"descriprion": "Our scientists have found that if we compress the plastanium very much and irradiate a little with radiation, we will get an element that will be several times more radioactive and heavier than enriched uranium. They called it Hardanium",
+	"type": "resource",
+	"esplosiveness": 0,
+	"flammability": 0,
+	"radioactivity": 10,
+	"cost": 0,
+	"alwaysUnlocked": false
+}

@@ -1,0 +1,33 @@
+{
+	"name": "AA plasmaturret",
+	"description": "Clear your sky",
+	"type": "DoubleTurret",
+	"category": "turret",
+	"size": 2,
+	"health": 1000,
+	"requirements": [
+		{ "item": "copper", "amount": 500 },
+		{ "item": "graphite", "amount": 150 },
+		{ "item": "plastanium", "amount": 400 }
+	],
+	"ammo": {
+		"plasma": {
+			"speed": 15,
+			"splashDamage": 40,
+			"splashDamageRadius": 20,
+			"lifetime": 60,
+			"damage": 80,
+			"bulletWidth": 16,
+			"bulletHeigth": 16
+		}
+	},
+	"shootType": "standartIncendiary",
+	"range": 160,
+	"reload": 3,
+	"inaccuracy": 3.0,
+	"rotateSpeed": 20,
+	"targetAir": true,
+	"targetGround": false,
+	"research": "plasmaionizator",
+	"recoil": 2
+}

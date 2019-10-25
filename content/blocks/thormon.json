@@ -1,0 +1,12 @@
+{
+	"name": "Thorium monolith",
+	"description": "Who say [green] radioactivity?",
+	"type": "Wall",
+	"category": "upgrade",
+	"requirements": [
+		{"item": "thorium", "amount": 50000}
+	],
+	"health": 15000,
+	"size": 4,
+	"research": "router"
+}

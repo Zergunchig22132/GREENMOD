@@ -1,0 +1,29 @@
+{
+	"name": "Plasmathower",
+	"description": "They will be [red] BURNED",
+	"type": "ItemTurret",
+	"category": "turret",
+	"size": 2,
+	"health": 1500,
+	"requirements": [
+		{ "item": "copper", "amount": 300 },
+		{ "item": "graphite", "amount": 100 },
+		{ "item": "plastanium", "amount": 200 }
+	],
+	"ammo": {
+		"plasma": {
+			"speed": 10,
+			"damage": 150,
+			"shootType": "pyraFlame"
+		}
+	},
+	"range": 100,
+	"reload": 3,
+	"rotateSpeed": 10,
+	"targetAir": false,
+	"targetGround": true,
+	"research": "plasmaionizator",
+	"ammoUseEffect": "none",
+	"shootSound": "flame",
+	"recoil": 0
+}

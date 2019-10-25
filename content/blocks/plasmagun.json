@@ -1,0 +1,33 @@
+{
+	"name": "Plasmagun",
+	"description": "They will be [red] BURNED",
+	"type": "ArtilleryTurret",
+	"category": "turret",
+	"size": 2,
+	"health": 1200,
+	"requirements": [
+		{ "item": "copper", "amount": 300 },
+		{ "item": "graphite", "amount": 100 },
+		{ "item": "plastanium", "amount": 200 }
+	],
+	"ammo": {
+		"plasma": {
+			"speed": 10,
+			"splashDamage": 15,
+			"splashDamageRadius": 8,
+			"lifetime": 120,
+			"damage": 100,
+			"bulletWidth": 16,
+			"bulletHeigth": 16
+		}
+	},
+	"shootType": "standartIncendiary",
+	"range": 160,
+	"reload": 3,
+	"inaccuracy": 3.0,
+	"rotateSpeed": 10,
+	"targetAir": true,
+	"targetGround": true,
+	"research": "plasmaionizator",
+	"recoil": 1
+}

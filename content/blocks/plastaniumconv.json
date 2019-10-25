@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor",
+	"name": "Plastanium conveyor",
+	"description": "For that, whoo need old and SPEEDY",
+	"requirements": [
+		{"item": "plastanium", "amount": 50},
+		{"item": "copper", "amount": 150},
+		{"item": "graphite", "amount": 50}
+	],
+	"category": "distribution",
+	"speed": 0.20,
+	"research": "plastanium-compressor"
+}

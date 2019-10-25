@@ -1,0 +1,14 @@
+{
+	"name": "Small plastanium battery.",
+	"description": "Its better than you think.",
+	"type": "battery",
+	"size": 1,
+	"category": "power",
+	"requirements": [
+		{"item": "plastanium", "amount": 30},
+		{"item": "copper", "amount": 50},
+		{"item": "lead", "amount": 50}
+	],
+	"consumes": {"powerBuffered": 50000},
+	"research": "fastplastanium"
+}

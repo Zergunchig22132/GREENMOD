@@ -1,0 +1,34 @@
+{
+	"name": "Railgun",
+	"description": "Launches hardanium into long distance",
+	"type": "ArtilleryTurret",
+	"category": "turret",
+	"size": 4,
+	"health": 2000,
+	"requirements": [
+		{ "item": "copper", "amount": 500 },
+		{ "item": "graphite", "amount": 300 },
+		{"item": "plastanium", "amount": 500},
+		{"item": "lead", "amount": 500},
+		{"item": "silicon", "amount": 300}
+	],
+	"ammo": {
+		"hardanium": {
+			"speed": 10,
+			"splashDamage": 100,
+			"splashDamageRadius": 80,
+			"lifetime": 600,
+			"damage": 300,
+			"shootType": "artilleryIncendary",
+			"bulletWidth": 25,
+			"bulletHeigth": 100
+		}
+	},
+	"reload": 300,
+	"shots": 1,
+	"range": 800,
+	"rotateSpeed": 0.7,
+	"targetAir": false,
+	"targetGround": true,
+	"research": "hardpress"
+}

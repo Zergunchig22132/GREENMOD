@@ -1,0 +1,32 @@
+{
+	"name": "Nanite control factory",
+	"description": "Conctructing repair nanites. Wow.",
+	"type": "UnitFactory",
+	"category": "units",
+	"requirements": [
+		{"item": "plastanium", "amount": 500},
+		{"item": "copper", "amount": 1000},
+		{"item": "lead", "amount": 1000},
+		{"item": "thorium", "amount": 500},
+		{"item": "graphite", "amount": 500},
+		{"item": "silicon", "amount": 300}
+	],
+	"unitType": "nanite",
+	"produceTime": 3600,
+	"size": 3,
+	"maxSpawn": 12,
+	"hasPower": true,
+	"consumes": {
+		"power": 10.0,
+		"items": {
+			"items": [
+				{"item": "plastanium", "amount": 50},
+				{"item": "silicon", "amount": 50},
+				{"item": "graphite", "amount": 50}
+			],
+		"booster": false,
+		"optional": false
+		}
+	},
+	"research": "hardpress"
+}

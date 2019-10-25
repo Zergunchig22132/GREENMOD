@@ -1,0 +1,23 @@
+{
+	"name": "Nanite",
+	"description": "So smaaal... So effective!",
+	"type": "Spirit",
+	"flying": true,
+	"drag": 0.001,
+	"speed": 1.5,
+	"maxVelocity": 2.5,
+	"range": 40,
+	"health": 30,
+	"engineSize": 0.5,
+	"engineOffset": 1.2,
+	"weapon": {
+		"length": 0.5,
+		"reload": 20,
+		"width": 0.25,
+		"roundrobin": true,
+		"ejectEffect": "none",
+		"recoil": 1,
+		"bullet": "healBulletBig",
+		"shootSound": "pew"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"name": "Plastanium conduit",
+	"description": "description",
+	"type": "Conduit",
+	"category": "liquid",
+	"requiresdments": [
+		{"item": "metaglass", "amount": 5},
+		{"item": "plastanium", "amount": 3}
+	],
+	"liquidCapacity": 30,
+	"health": 150
+}

@@ -1,0 +1,24 @@
+{
+	"type": "GenericCrafter",
+	"name": "???",
+	"category": "crafting",
+	"description": "We don't know what is it. We think, you need to put that items in this... Altar??? There are some simbols... What they mean?",
+	"size": 8,
+	"health": 50000,
+	"hasItems": true,
+	"hasLiquids": false,
+	"itemCapacity": 10000000000,
+	"craftTime": 432000,
+	"outputItem": {"item": "win", "amount": 1},
+	"hasPower": true,
+	"consumes": {
+		"power": 50.0,
+		"items": {
+			"items": [
+				{"item": "titanium", "amount": 7}
+			],
+			"booster": false,
+			"optional": false,
+		}
+	}
+}

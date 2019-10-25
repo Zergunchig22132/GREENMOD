@@ -1,0 +1,17 @@
+{
+	"name": "Plastanium pump",
+	"description": "You think that thermal pump is the best? Now it isn't.",
+	"type": "Pump",
+	"category": "liquid",
+	"requirements": [
+		{"item": "metaglass", "amount": 200},
+		{"item": "plastanium", "amount": 200},
+		{"item": "silicon", "amount": 50}
+	],
+	"pumpAmount": 4.0,
+	"consumesPower": 1.0,
+	"hasPower": true,
+	"liquidCapacity": 100,
+	"size": 4,
+	"research": "fastplastanium"
+}

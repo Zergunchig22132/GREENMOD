@@ -1,0 +1,24 @@
+{
+	"name": "Plasma Ionizer",
+	"description": "This factory ionizing moleculs of air into hot plasma. Very hot.",
+	"type": "GenericCrafter",
+	"category": "crafting",
+	"size": 4,
+	"health": 1000,
+	"requirements": [
+		{ "item": "copper", "amount": 500 },
+		{ "item": "lead", "amount": 500 },
+		{ "item": "graphite", "amount": 100 },
+		{ "item": "silicon", "amount": 50 },
+		{ "item": "plastanium", "amount": 200 }
+	],
+	"hasItems": true,
+	"hasLiquids": false,
+	"craftTime": 15,
+	"outputItem": {"item": "plasma", "amount": 1},
+	"hasPower": true,
+	"consumes": {
+		"power": 50.0
+	},
+	"research": "fastplastanium"
+}

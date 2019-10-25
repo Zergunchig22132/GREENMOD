@@ -1,0 +1,34 @@
+{
+	"name": "Plasma shotgun",
+	"description": "More plasma!",
+	"type": "BurstTurret",
+	"category": "turret",
+	"size": 2,
+	"health": 1500,
+	"requirements": [
+		{ "item": "copper", "amount": 500 },
+		{ "item": "graphite", "amount": 150 },
+		{ "item": "plastanium", "amount": 250 }
+	],
+	"ammo": {
+		"plasma": {
+			"speed": 7,
+			"splashDamage": 15,
+			"splashDamageRadius": 4,
+			"lifetime": 120,
+			"damage": 60,
+			"bulletWidth": 16,
+			"bulletHeigth": 16
+		}
+	},
+	"shootType": "standartIncendiary",
+	"range": 120,
+	"reload": 60,
+	"inaccuracy": 15.0,
+	"rotateSpeed": 15,
+	"targetAir": true,
+	"targetGround": true,
+	"research": "plasmaionizator",
+	"recoil": 1,
+	"shots": 10
+}

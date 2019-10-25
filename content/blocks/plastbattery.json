@@ -1,0 +1,14 @@
+{
+	"name": "Plastanium battery",
+	"description": "Something powerfull",
+	"type": "battery",
+	"size": 2,
+	"category": "power",
+	"requirements": [
+		{"item": "plastanium", "amount": 120},
+		{"item": "copper", "amount": 200},
+		{"item": "lead", "amount": 200}
+	],
+	"consumes": {"powerBuffered": 210000},
+	"research": "plastbatterysmall"
+}

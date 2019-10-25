@@ -1,0 +1,12 @@
+{
+	"name": "Small plastinium wall",
+	"description": "We discovered that the bullets were knitting in plastinium. It needs to be used!",
+	"health": 1100,
+	"size": 1,
+	"type": "Wall",
+	"category": "defense",
+	"requirements": [
+		{"item": "plastanium", "amount": 10}
+	],
+	"research": "plastanium-compressor"
+}

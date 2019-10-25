@@ -1,0 +1,30 @@
+{
+	"name": "Wasp factory",
+	"description": "Construct AA units of new age.",
+	"type": "UnitFactory",
+	"category": "units",
+	"requirements": [
+		{"item": "plastanium", "amount": 500},
+		{"item": "copper", "amount": 800},
+		{"item": "lead", "amount": 800},
+		{"item": "graphite", "amount": 400},
+		{"item": "silicon", "amount": 300}
+	],
+	"unitType": "wasp",
+	"produceTime": 1800,
+	"size": 3,
+	"maxSpawn": 3,
+	"hasPower": true,
+	"consumes": {
+		"power": 5.0,
+		"items": {
+			"items": [
+				{"item": "plastanium", "amount": 50},
+				{"item": "silicon", "amount": 30},
+				{"item": "graphite", "amount": 40}
+			]
+		}
+	},
+	"itemCapacity": 500,
+	"health": 800
+}
