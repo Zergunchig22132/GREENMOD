@@ -16,15 +16,15 @@
 			"splashDamage": 40,
 			"splashDamageRadius": 20,
 			"lifetime": 60,
-			"damage": 80,
+			"damage": 60,
 			"bulletWidth": 16,
 			"bulletHeigth": 16
 		}
 	},
 	"shootType": "standartIncendiary",
-	"range": 160,
+	"range": 240,
 	"reload": 3,
-	"inaccuracy": 3.0,
+	"inaccuracy": 5.0,
 	"rotateSpeed": 20,
 	"targetAir": true,
 	"targetGround": false,
