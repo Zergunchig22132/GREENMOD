@@ -13,10 +13,10 @@
 	"ammo": {
 		"plasma": {
 			"speed": 10,
-			"splashDamage": 15,
+			"splashDamage": 10,
 			"splashDamageRadius": 8,
 			"lifetime": 120,
-			"damage": 100,
+			"damage": 40,
 			"bulletWidth": 16,
 			"bulletHeigth": 16
 		}
