@@ -1,0 +1,33 @@
+{
+	"type": "GenericCrafter",
+	"name": "Coal press",
+	"description": "You waited it thousands of years...",
+	"category": "crafting",
+	"requirements": [
+		{"item": "copper", "amount": 100},
+		{"item": "lead", "amount": 200},
+		{"item": "graphite", "amount": 50}
+	],
+	"liquidCapacity": 100,
+	"craftTime": 20,
+	"outputLiquid": {"liquid": "oil", "amount": 10},
+	"size": 2,
+	"health": 400,
+	"hasLiquids": true,
+	"hasItems": true,
+	"hasPower": true,
+	"consumes": {
+		"power": 2.0,
+		"items": {
+			"items": [
+				{"item": "coal", "amount": 1}
+			],
+			"booster": false,
+			"optional": false,
+		},
+		"liquid": {
+			"liquid": "water",
+			"amount": 10,	
+		}
+	}
+}
