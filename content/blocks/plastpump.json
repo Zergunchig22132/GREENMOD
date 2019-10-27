@@ -8,8 +8,10 @@
 		{"item": "plastanium", "amount": 200},
 		{"item": "silicon", "amount": 50}
 	],
-	"pumpAmount": 4.0,
-	"consumesPower": 1.0,
+	"pumpAmount": 5.0,
+	"consumes": {
+		"power": 5
+	},
 	"hasPower": true,
 	"liquidCapacity": 100,
 	"size": 4,
