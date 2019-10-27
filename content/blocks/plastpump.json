@@ -10,7 +10,7 @@
 	],
 	"pumpAmount": 5.0,
 	"consumes": {
-		"power": 5
+		"power": 5.0
 	},
 	"hasPower": true,
 	"liquidCapacity": 100,
