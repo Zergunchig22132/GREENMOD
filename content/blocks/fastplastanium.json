@@ -30,7 +30,7 @@
 		},
 		"liquid": {
 			"liquid": "oil",
-			"amount": 15,
+			"amount": 2.5,
 		}
 	},
 	"research": "plastanium-compressor"
